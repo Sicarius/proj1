@@ -64,12 +64,11 @@ fieldset{
 }
 
 .cd-fixed-bg {  
-  min-height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-	background-position: center center;
-	
+ 	min-height: 100vh;
+ 	background-size: cover;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+	background-position: center center;	
 	padding-bottom: 1px;
 }
 
@@ -86,36 +85,36 @@ fieldset{
 }
 
 .cd-fixed-bg.cd-fixed-bg--3 {
-  background-image: url("../img/5.jpg");
+  	background-image: url("../img/5.jpg");
 }
 
 .cd-scrolling-bg {
-  position: relative;
-  min-height: 100%;
-  padding: 3em 0;
-  line-height: 1.6;
-  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+ 	 position: relative;
+ 	 min-height: 100%;
+ 	 padding: 3em 0;
+ 	 line-height: 1.6;
+  	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+         box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
 .cd-scrolling-bg.cd-scrolling-bg--color-1 {
-  background-color: #3d3536;
-  color: #a6989a;
+ 	 background-color: #3d3536;
+ 	 color: #a6989a;
 }
 
 .cd-scrolling-bg.cd-scrolling-bg--color-2 {
-  background-color: #99a478;
-  color: #3d3536;
+	 background-color: #99a478;
+ 	 color: #3d3536;
 }
 
 .cd-scrolling-bg.cd-scrolling-bg--color-3 {
-  background-color: #b4d7a8;
-  color: #3d3536;
+	 background-color: #b4d7a8;
+ 	 color: #3d3536;
 }
 
 .cd-scrolling-bg__content {
-  width: 90%;
-  max-width: 768px;
+ 	width: 90%;
+ 	max-width: 768px;
 	margin: 0 auto;
 	padding-bottom: 1px;
 }
